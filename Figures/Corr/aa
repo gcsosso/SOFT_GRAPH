@@ -1,0 +1,32 @@
+corr0, p_value_0 = stats.spearmanr(x0, y)
+corr1, p_value_1 = stats.spearmanr(x1, y)
+corr2, p_value_2 = stats.spearmanr(x2, y)
+corr3, p_value_3 = stats.spearmanr(x3, y)
+corr4, p_value_4 = stats.spearmanr(x4, y)
+corr5, p_value_5 = stats.spearmanr(x5, y)
+corr6, p_value_6 = stats.spearmanr(x6, y)
+corr7, p_value_7 = stats.spearmanr(x7, y)
+corr8, p_value_8 = stats.spearmanr(x8, y)
+corr9, p_value_9 = stats.spearmanr(x9, y)
+cr0[counter] = corr0
+cr1[counter] = corr1
+cr2[counter] = corr2
+cr3[counter] = corr3
+cr4[counter] = corr4
+cr5[counter] = corr5
+cr6[counter] = corr6
+cr7[counter] = corr7
+cr8[counter] = corr8
+cr9[counter] = corr9
+
+
+plt.plot(f_c,cr0)
+plt.plot(f_c,cr1)
+plt.plot(f_c,cr2)
+plt.plot(f_c,cr3)
+plt.plot(f_c,cr4)
+plt.plot(f_c,cr5)
+plt.plot(f_c,cr6)
+plt.plot(f_c,cr7)
+plt.plot(f_c,cr8)
+plt.plot(f_c,cr9)
